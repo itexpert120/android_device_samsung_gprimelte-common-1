@@ -27,7 +27,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
 # Init
-TARGET_LIBINIT_MSM8916_DEFINES_FILE := $(LOCAL_PATH)/init/init_gprimelte.cpp
+TARGET_INIT_VENDOR_LIB := libinit_gprimelte
+TARGET_RECOVERY_DEVICE_MODULES := libinit_gprimelte
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
