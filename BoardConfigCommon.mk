@@ -19,10 +19,6 @@ LOCAL_PATH := device/samsung/gprimelte-common
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
-# Screen density
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
 # Include
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 
